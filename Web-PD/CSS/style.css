@@ -1,0 +1,402 @@
+body{
+    background-color: beige;
+}
+
+a{
+    color: red;
+}
+
+
+/*OUTRA QUESTAO*/
+.page-wrapper {
+    width: 800px; 
+    margin: 0 auto;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    text-indent: 1em;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+h1 {
+    font-size: 1.8rem;
+}
+h2 {
+    font-size: 1.4rem;
+}
+h3 {
+    font-size: 1.2rem;
+}
+#zen-summary {
+    text-align: right;
+}
+#zen-supporting p {
+    line-height: 1.5;
+}
+abbr {
+    font-variant: small-caps;
+}
+
+
+/*QUESTAO 3*/
+footer {
+    margin-top: 4%;
+    background-color: #333; 
+    color: #fff; 
+    padding: 1em;
+    text-align: center;
+}
+footer a {
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 0.5em;
+    margin: 0.5em;
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/*QUESTAO 4*/
+.page-wrapper {
+    position: relative;
+}
+#zen-explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: 1px solid #1f295c;
+    padding-right: 2%;
+    box-sizing: border-box; 
+}
+#design-selection {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box; 
+    width: 30%; 
+}
+#design-selection nav ul li {
+    text-align: center;
+}
+
+/*QUESTAO 5*/
+.page-wrapper {
+    position: relative;
+}
+#zen-explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: 1px solid #1f295c;
+    padding-right: 2%;
+    box-sizing: border-box; 
+}
+#design-selection {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box; 
+    width: 30%;
+}
+#design-selection nav ul li {
+    text-align: center;
+}
+footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 1em; 
+}
+footer a {
+    flex: 1 1 150px; 
+    text-align: center;
+    padding: 0.5em;
+    border: 2px solid #fff;
+    margin: 0.5em;
+    color: #fff;
+    text-decoration: none;
+}
+#zen-benefits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #1f295c; 
+    border-bottom: none; 
+    padding: 1em 0; 
+}
+#zen-benefits h3 {
+    flex: 0 1 30%; 
+    text-align: right; 
+}
+#zen-benefits p {
+    flex: 1 1 70%; 
+    text-align: left;
+}
+#zen-participation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: none; 
+    border-bottom: 1px solid #1f295c; 
+    padding: 1em 0; 
+}
+#zen-participation h3 {
+    flex: 1 1 50%; 
+    text-align: center; 
+}
+#zen-participation p {
+    flex: 1 1 50%;
+    text-align: left; 
+}
+
+
+/*QUESTAO 6*/
+.page-wrapper {
+    position: relative;
+}
+#zen-explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: 1px solid #1f295c;
+    padding-right: 2%;
+    box-sizing: border-box; 
+}
+#design-selection {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box; 
+    width: 30%;
+}
+#design-selection nav ul li {
+    text-align: center;
+}
+footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 1em; 
+}
+footer a {
+    flex: 1 1 150px;
+    text-align: center;
+    padding: 0.5em;
+    border: 2px solid #fff;
+    margin: 0.5em;
+    color: #fff;
+    text-decoration: none;
+}
+a {
+    color: #ff4500; 
+    font-weight: bold; 
+    text-decoration: none;
+}
+a:hover {
+    color: #ff6347;
+}
+
+a:visited {
+    color: #ff4500; 
+    font-weight: normal; 
+}
+#zen-supporting p:first-of-type::first-letter {
+    font-size: 3em; 
+    font-family: 'Georgia', serif; 
+    float: left; 
+    margin-right: 0.1em; 
+}
+#design-selection nav ul li {
+    border-top: 1px solid #1f295c; 
+    padding: 0.5em 0; 
+}
+#design-selection nav ul li:last-child {
+    border-bottom: 1px solid #1f295c; 
+}
+#zen-benefits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #1f295c;
+    border-bottom: none; 
+    padding: 1em 0; 
+}
+
+#zen-benefits h3 {
+    flex: 0 1 30%; 
+    text-align: right; 
+}
+#zen-benefits p {
+    flex: 1 1 70%;
+    text-align: left; 
+}
+#zen-participation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: none; 
+    border-bottom: 1px solid #1f295c; 
+    padding: 1em 0; 
+}
+#zen-participation h3 {
+    flex: 1 1 50%; 
+    text-align: center; 
+}
+
+#zen-participation p {
+    flex: 1 1 50%; 
+    text-align: left; 
+}
+
+
+/*Ultima questao*/
+.page-wrapper {
+    position: relative;
+}
+#zen-explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: 1px solid #1f295c;
+    padding-right: 2%;
+    box-sizing: border-box; 
+}
+#design-selection {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box; 
+    width: 30%; 
+}
+#design-selection nav ul li {
+    text-align: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 1em; 
+}
+footer a {
+    flex: 1 1 150px; 
+    text-align: center;
+    padding: 0.5em;
+    border: 2px solid #fff;
+    margin: 0.5em;
+    color: #fff;
+    text-decoration: none;
+}
+a {
+    color: #ff4500; 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+a:hover {
+    color: #ff6347; 
+}
+a:visited {
+    color: #ff4500; 
+    font-weight: normal; 
+}
+#zen-supporting p:first-of-type::first-letter {
+    font-size: 3em; 
+    font-family: 'Georgia', serif; 
+    float: left; 
+    margin-right: 0.1em; 
+}
+#design-selection nav ul li {
+    border-top: 1px solid #1f295c; 
+    padding: 0.5em 0; 
+}
+#design-selection nav ul li:last-child {
+    border-bottom: 1px solid #1f295c; 
+}
+#zen-benefits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #1f295c; 
+    border-bottom: none; 
+    padding: 1em 0; 
+}
+#zen-benefits h3 {
+    flex: 0 1 30%; 
+    text-align: right; 
+}
+#zen-benefits p {
+    flex: 1 1 70%; 
+    text-align: left; 
+}
+#zen-participation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: none;
+    border-bottom: 1px solid #1f295c; 
+    padding: 1em 0; 
+}
+#zen-participation h3 {
+    flex: 1 1 50%; 
+    text-align: center; 
+}
+#zen-participation p {
+    flex: 1 1 50%; 
+    text-align: left; 
+}
+@media (max-width: 768px) {
+    #design-selection {
+        position: static;
+        width: 100%;
+        top: auto;
+        left: auto;
+        padding: 0;
+    }
+    #zen-explanation {
+        border-right: none;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    #zen-benefits, #zen-participation {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #zen-benefits h3, #zen-benefits p {
+        width: 100%;
+        text-align: left;
+    }
+    #zen-participation h3, #zen-participation p {
+        width: 100%;
+        text-align: left;
+    }
+    header {
+        height: auto;
+    }
+    p {
+        text-indent: 0;
+    }
+}
+@media print {
+    body {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    header {
+        background-color: #fff;
+        color: #000;
+    }
+    header a {
+        color: #000;
+    }
+}
